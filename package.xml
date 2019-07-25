@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <version>45.0</version>
+    <types>
+        <members>mytestAccount__c</members>
+        <members>mytest__c</members>
+        <members>mytestbutton__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>mytestAccount__c-mytestAccount Layout</members>
+        <members>mytest__c-mytest Layout</members>
+        <members>mytestbutton__c-mytest Layout</members>
+        <name>Layout</name>
+    </types>
+</Package>
