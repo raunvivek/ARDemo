@@ -23,9 +23,6 @@
         <members>Person__c</members>
         <members>Production_Position__c</members>
         <members>Production__c</members>
-        <members>mytestAccount__c</members>
-        <members>mytest__c</members>
-        <members>mytestbutton__c</members>
         <name>CustomObject</name>
     </types>
     <types>
@@ -53,9 +50,6 @@
         <members>Person__c-Person Layout</members>
         <members>Production_Position__c-Production Position Layout</members>
         <members>Production__c-Production Layout</members>
-        <members>mytestAccount__c-mytestAccount Layout</members>
-        <members>mytest__c-mytest Layout</members>
-        <members>mytestbutton__c-mytest Layout</members>
         <name>Layout</name>
     </types>
     <types>
