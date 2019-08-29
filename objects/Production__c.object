@@ -132,6 +132,24 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Productions</pluralLabel>
+    <recordTypes>
+        <fullName>Movie</fullName>
+        <active>true</active>
+        <description>For Movie Production</description>
+        <label>Movie</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>TV_Show</fullName>
+        <active>true</active>
+        <description>TV Show Productions</description>
+        <label>TV Show</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Video_Games</fullName>
+        <active>true</active>
+        <description>Production type for Video games</description>
+        <label>Video Games</label>
+    </recordTypes>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
