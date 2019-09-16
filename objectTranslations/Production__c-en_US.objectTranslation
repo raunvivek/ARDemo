@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Production</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Productions</value>
+    </caseValues>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Budget --></label>
+        <name>Estimated_Budget__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fun Facts --></label>
+        <name>Fun_Facts__c</name>
+    </fields>
+    <fields>
+        <label><!-- IMDB URL --></label>
+        <name>IMDB_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Episodes --></label>
+        <name>Number_of_Episodes__c</name>
+    </fields>
+    <fields>
+        <help><!-- The calendar year this production was originally released --></help>
+        <label><!-- Year --></label>
+        <name>Year__c</name>
+    </fields>
+    <layouts>
+        <layout>Production Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- For Movie Production --></description>
+        <label><!-- Movie --></label>
+        <name>Movie</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- TV Show Productions --></description>
+        <label><!-- TV Show --></label>
+        <name>TV_Show</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Production type for Video games --></description>
+        <label><!-- Video Games --></label>
+        <name>Video_Games</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
