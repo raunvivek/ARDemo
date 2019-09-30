@@ -3,8 +3,14 @@
     <version>44.0</version>
     <types>
         <members>TeaTime</members>
+        <members>TemperatureConverter</members>
+        <members>TemperatureConverterTest</members>
         <members>test</members>
         <name>ApexClass</name>
+    </types>
+    <types>
+        <members>temperaturesuitetest</members>
+        <name>ApexTestSuite</name>
     </types>
     <types>
         <members>Opportunity.Product</members>
