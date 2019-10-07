@@ -43,77 +43,52 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>Capture offer made for the property by a buyer</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
-    <enableLicensing>false</enableLicensing>
     <enableReports>false</enableReports>
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
-        <fullName>Contact__c</fullName>
+        <fullName>Property__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
-        <description>Which customer made the offer</description>
         <externalId>false</externalId>
-        <label>Contact</label>
-        <referenceTo>Contact</referenceTo>
-        <relationshipLabel>Offers</relationshipLabel>
-        <relationshipName>Offers</relationshipName>
+        <label>Property</label>
+        <referenceTo>Property__c</referenceTo>
+        <relationshipLabel>Favorites</relationshipLabel>
+        <relationshipName>Favorites</relationshipName>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>Offer_Amount__c</fullName>
-        <description>Price offered by customer for the property</description>
+        <fullName>User__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
-        <label>Offer Amount</label>
-        <precision>10</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackTrending>false</trackTrending>
-        <type>Currency</type>
-    </fields>
-    <fields>
-        <fullName>Property__c</fullName>
-        <description>Which Property offer is made</description>
-        <externalId>false</externalId>
-        <label>Property</label>
-        <referenceTo>PropertyTrailHead__c</referenceTo>
-        <relationshipLabel>Offers</relationshipLabel>
-        <relationshipName>Offers</relationshipName>
-        <relationshipOrder>0</relationshipOrder>
-        <reparentableMasterDetail>false</reparentableMasterDetail>
-        <trackTrending>false</trackTrending>
-        <type>MasterDetail</type>
-        <writeRequiresMasterRead>false</writeRequiresMasterRead>
-    </fields>
-    <fields>
-        <fullName>Target_Close_Date__c</fullName>
-        <description>When is the expected sale of the property this customer is looking at</description>
-        <externalId>false</externalId>
-        <label>Target Close Date</label>
+        <label>User</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Favorites</relationshipName>
         <required>false</required>
         <trackTrending>false</trackTrending>
-        <type>Date</type>
+        <type>Lookup</type>
     </fields>
-    <label>Offer</label>
+    <label>Favorite</label>
     <listViews>
         <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Property__c</columns>
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
     <nameField>
-        <displayFormat>OF-{0000}</displayFormat>
-        <label>Offer Name</label>
+        <displayFormat>F-{00000000}</displayFormat>
+        <label>Favorite Name</label>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Offers</pluralLabel>
+    <pluralLabel>Favorites</pluralLabel>
     <searchLayouts/>
-    <sharingModel>ControlledByParent</sharingModel>
-    <startsWith>Vowel</startsWith>
+    <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

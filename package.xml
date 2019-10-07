@@ -25,7 +25,11 @@
         <members>Episode__c.Episode_Number__c</members>
         <members>Episode__c.Season__c</members>
         <members>Episode__c.TV_Show__c</members>
+        <members>Favorite__c.Property__c</members>
+        <members>Favorite__c.User__c</members>
+        <members>Offer__c.Contact__c</members>
         <members>Offer__c.Offer_Amount__c</members>
+        <members>Offer__c.Property__c</members>
         <members>Offer__c.Target_Close_Date__c</members>
         <members>Production_Position__c.Position_Type__c</members>
         <members>Production__c.Description__c</members>
@@ -38,6 +42,7 @@
     </types>
     <types>
         <members>Episode__c</members>
+        <members>Favorite__c</members>
         <members>Offer__c</members>
         <members>Person__c</members>
         <members>Production_Position__c</members>
@@ -77,6 +82,7 @@
     </types>
     <types>
         <members>Episode__c.All</members>
+        <members>Favorite__c.All</members>
         <members>Offer__c.All</members>
         <members>Person__c.All</members>
         <members>Production_Position__c.All</members>
