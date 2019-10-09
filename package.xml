@@ -38,6 +38,7 @@
         <members>Production__c.IMDB_URL__c</members>
         <members>Production__c.Number_of_Episodes__c</members>
         <members>Production__c.Year__c</members>
+        <members>Production__c.test_production__c</members>
         <name>CustomField</name>
     </types>
     <types>
@@ -122,6 +123,7 @@
         <members>Partner Community User</members>
         <members>PlatformPortal</members>
         <members>ReadOnly</members>
+        <members>Sales User</members>
         <members>Silver Partner User</members>
         <members>SolutionManager</members>
         <members>Standard</members>

@@ -15,6 +15,11 @@
         <field>Offer__c.Target_Close_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Production__c.test_production__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Offer__c-Offer Layout</layout>
     </layoutAssignments>
