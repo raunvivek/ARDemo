@@ -98,7 +98,7 @@
     </fields>
     <fields>
         <fullName>Number_of_Episodes__c</fullName>
-        <description>Total number of episodesssss that are in a TV Series</description>
+        <description>Total number of episodes with test that are in a TV Series</description>
         <externalId>false</externalId>
         <label>Number of Episodes</label>
         <summaryForeignKey>Episode__c.TV_Show__c</summaryForeignKey>
